@@ -67,17 +67,17 @@ def count(thresholded, segmented):
 
     #print(extreme_top)
     if a > x :
-        priti = 0
+        trial = 0
     else :
-        priti = 1
-    print(priti)
+        trial = 1
+    print(trial)
     x=a
 
     if b > y :
-        neha = 0
+        trial1 = 0
     else :
-        neha = 1
-    print(neha)
+        trial1 = 1
+    print(trial1)
     y=b
 
     #drawing circles on extreme points
@@ -104,14 +104,14 @@ def count(thresholded, segmented):
     print(dis)
 
     if dis >= m :
-        harshada = 0
+        trial2 = 0
         print('zoom out')
  #       pyautogui.drag(30,0,2,button='left')
     else :
-        harshada = 1
+        trial2 = 1
         print('zoom in')
 #        pyautogui.drag(-30,0,2,button='left')
-    print(harshada)
+    print(trial2)
     m=dis
 
     # calculate the radius of the circle with 80% of the max euclidean distance obtained
@@ -149,7 +149,7 @@ def count(thresholded, segmented):
         if ((cY + (cY * 0.25)) > (y + h)) and ((circumference * 0.25) > c.shape[0]):
             count += 1
 
-    return count,priti,harshada,neha
+    return count,trial,trial1,trial2
 
 
 # -------------------------------------------------------------------------------
