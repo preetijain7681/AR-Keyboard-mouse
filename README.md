@@ -9,8 +9,6 @@ The objective is to create an augmented reality interface for keypad and mousepa
   * [File Structure](#file-structure)
 * [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
-  * [Installation](#installation)
-* [Usage](#usage)
 * [Results and Demo](#results-and-demo)
 * [Future Work](#future-work)
 * [Troubleshooting](#troubleshooting)
@@ -84,27 +82,9 @@ Scene during the simulation:
 
 <!-- FUTURE WORK -->
 ## Future Work
-* Extracting coordinates of white boxes
-- [x] Add Vision Sensor
-- [x] Add Blob Detection Filter
-- [x] Add Vision Sensor script
-- [x] Convert all coordinates to metres  
-* Other possible modifications:
-- [ ] Adding camera/vision sensors to detect object
-- [ ] Changing the robot and gripper, or designing one
-- [ ] Make the robot mobile
-- [ ] Obstacle avoidance and end-to-end planning
-
-<!-- TROUBLESHOOTING -->
-## Troubleshooting
-* The robotic arm moves erratically  
-  Change position of target dummy. If that doesn't work, adjust the pos angles.
-* The arm does not follow the path  
-  Make sure all the joints are set to Inverse Kinematics mode. Also check the code to see whether path is created correctly.
-* Gripper does not work  
-  Disable or delete the default script of the gripper and replace it with the one used in PickAndPlace.ttt.
-  
-
+* Improving extraction method as background elimination is not efficient.
+* Operating mobile using hand recognition
+* Improving interface and building a prototye glass for portable functionality.
 
 <!-- CONTRIBUTORS -->
 ## Contributors
@@ -113,13 +93,13 @@ Scene during the simulation:
   1. Mr. Harshvardhan
   2. Mr. Chetan
 * MEMBERS
-  1. [Ms. Priti Jain](https://github.com/preetijain7681) : preetijain7681ail.com
+  1. [Ms. Priti Jain](https://github.com/preetijain7681) : preetijain7681@gmail.com
   2. [Ms. Harshada Patil](https://github.com/Reshmika-Nambiar) : harshadapatil372@gmail.com 
+
 <!-- ACKNOWLEDGEMENTS AND REFERENCES -->
 ## Acknowledgements and Resources
 * [SRA VJTI](http://sra.vjti.info/) Eklavya 2019  
-* 
-* [Inverse Kinematics tutorial](https://youtu.be/JUiSZinyH1c)
+* https://gogul09.github.io/software/hand-gesture-recognition-p1
 
 
 <!-- LICENSE -->
