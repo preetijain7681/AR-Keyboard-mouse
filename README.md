@@ -5,13 +5,7 @@ The objective is to create an augmented reality interface for keypad and mousepa
 ## Table of Contents
 
 * [About the Project](#about-the-project)
-  * [Tech Stack](#tech-stack)
-  * [File Structure](#file-structure)
-* [Getting Started](#getting-started)
-  * [Prerequisites](#prerequisites)
-* [Results and Demo](#results-and-demo)
 * [Future Work](#future-work)
-* [Troubleshooting](#troubleshooting)
 * [Contributors](#contributors)
 * [Acknowledgements and Resources](#acknowledgements-and-resources)
 * [License](#license)
@@ -23,62 +17,6 @@ The objective is to create an augmented reality interface for keypad and mousepa
 
 We have created a program of hand gesture recognition using OpenCV different function such as swiping, zooming and typing are performed at the required interface.
 Screen of the computer is mirrored on the screen of smart phone and so the user can get the exact processing required, the main motive of using phone as input device is to make it portable. Thus, all the functions can be controlled using hand gesture
-
-Refer this [documentation](report.pdf).
-
-### Tech Stack
-Software used for this project :  
-   [V-REP/CoppeliaSim (specifically, V-REP PRO EDU 3.6.2 version has been used)](https://www.coppeliarobotics.com/)
-
-### File Structure
-    .
-    ├── PickAndPlace.ttt        # Project file - Open it in V-REP and start the simulation
-    ├── ExtractCoordinates.ttt  # Future work - Extracts X, Y and Z coordinates of white boxes
-    ├── report.pdf              # Project report
-    ├── final.png               # Screenshot of scene before simulation starts
-    ├── scene.png               # Screenshot of scene during simulation
-    ├── LICENSE
-    └── README.md  
-    
-
-<!-- GETTING STARTED -->
-## Getting Started
-
-### Prerequisites
-
- CoppeliaSim/V-REP
-
-  You can visit the [Coppelia Robotics website](https://www.coppeliarobotics.com/previousVersions) for the installation. We have used V-REP PRO EDU Version 3.6.2 for our project.
-  
-
-### Installation
-Clone the repo
-```sh
-git clone https://github.com/Tejal-19/simbotix.git
-```
-
-<!-- USAGE EXAMPLES -->
-## Usage
-```
-Open PickAndPlace.ttt in V-REP and start the simulation.
-```
-
-
-<!-- RESULTS AND DEMO -->
-## Results and Demo
-Scene before starting the simulation:  
-  
-![**Before Starting Simulation**](final.png)  
-  
-Scene during the simulation:  
-  
-![**During Simulation**](scene.png)  
-  
-  
-[**Video of Final Scene**](https://youtu.be/Pa8bjl16Gbc)  
-
-
-
 
 <!-- FUTURE WORK -->
 ## Future Work
