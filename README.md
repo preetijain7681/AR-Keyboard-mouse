@@ -13,7 +13,6 @@ The objective is to create an augmented reality interface for keypad and mousepa
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-![Final Scene](final.png)  
 
 We have created a program of hand gesture recognition using OpenCV different function such as swiping, zooming and typing are performed at the required interface.
 Screen of the computer is mirrored on the screen of smart phone and so the user can get the exact processing required, the main motive of using phone as input device is to make it portable. Thus, all the functions can be controlled using hand gesture
