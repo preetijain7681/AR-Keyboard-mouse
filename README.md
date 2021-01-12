@@ -42,9 +42,7 @@ Screen of the computer is mirrored on the screen of smart phone and so the user 
 
 <!-- LICENSE -->
 ## License
-  MIT License  
-  
-  Copyright (c) 2020 Tejal Bedmutha and Reshmika Nambiar  
+  MIT License   
   Go to [License](LICENSE) for full license. 
  
  
